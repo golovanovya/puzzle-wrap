@@ -1,15 +1,15 @@
 {
-    "name": "puzzle wrap",
-    "version": "1.0.0",
-    "description": "electronic menu",
-    "main": "main.js",
-    "scripts": {
-        "start": "electron .",
-        "build": "electron-packager . puzzle --platform=linux --arch=x64 --version=1.4.11 --app-version=0.1.0 --out=dist --ignore=\"\.gitignore|\.git|dist\" --prune --overwrite"
-    },
-    "author": "golovanovya@gmail.com",
-    "license": "ISC",
-        "dependencies": {
-        "express": "^4.14.0"
-    }
+  "name": "puzzle-menu",
+  "version": "1.0.0",
+  "description": "electronic menu",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "golovanovya@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.14.0",
+    "jquery": "^3.1.1"
+  }
 }

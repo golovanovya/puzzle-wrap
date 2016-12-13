@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Puzzle menu</title>
+    <script src="bower_components/jquery/dist/jquery.js"></script>
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css" defer>
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap-theme.css">
+</head>
+<body>
+    <div class="toolbar">
+        <button class="glyphicon glyphicon-circle-arrow-left"></button>
+        <button class="glyphicon glyphicon-fullscreen"></button>
+    </div>
+    <webview id="wv" src="pl/" plugins></webview>
+    <script>
+        var wv = document.getElementById('wv');
+        wv.style.width = '640px';
+        wv.style.height = '480px';
+    </script>
+</body>
+</html>

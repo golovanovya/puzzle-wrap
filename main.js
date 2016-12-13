@@ -34,6 +34,8 @@ function createWindow () {
   // Create the browser window.
   win = new BrowserWindow({
       width: 800, height: 600,
+      center: true,
+      skipTaskbar: false,
       webPreferences: {
         plugins: true
       }
@@ -41,7 +43,7 @@ function createWindow () {
 
   // and load the index.html of the app.
   win.loadURL(url.format({
-    pathname: 'localhost:3000/pl/index.html',
+    pathname: 'localhost:3000/',
     protocol: 'http:',
     slashes: true
   }))
